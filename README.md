@@ -1,0 +1,1 @@
+[Getting Started](https://docs.npmjs.com/getting-started/)
