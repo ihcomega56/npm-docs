@@ -76,7 +76,7 @@
 }
 ```
 
-* name: gitディレクトリのauthor名、ない場合はリポジトリ名
+* name: Gitディレクトリの中にない場合、authorの名前(その場合、それがnpmリポジトリの名前となる)
 * version: 常に `1.0.0`
 * main: 常に `index.js`
 * scripts: デフォルトでは、空のテストスクリプト
@@ -133,7 +133,7 @@ module.exports = prompt("what's your favorite flavor of ice cream buddy?", "I LI
 
 ### package.jsonのマニュアル編集
 
-`package.json`は手で書き換えることが出来ます。オブジェクトを値に持つ、`dependencies`という属性をパッケージオブジェクトの中に作って下さい。このオブジェクトは、使いたいパッケージから名前をとった属性を持ち、その値は[semver](https://docs.npmjs.com/getting-started/semantic-versioning)形式を取ります。semver形式は、依存するプロジェクトのどのバージョンが自分のプロジェクトに適しているかを表すものです。  
+`package.json`は手で書き換えることが出来ます。オブジェクトを値に持つ、`dependencies`という属性をパッケージオブジェクトの中に作って下さい。このオブジェクトは、使いたいパッケージから名前をとった属性を持ち、その値は[semver](https://docs.npmjs.com/getting-started/semantic-versioning)形式を取ります。semver形式は、依存するプロジェクトのどのバージョンが自分のプロジェクトと互換性を持つか表すものです。  
 
 ローカル環境でのみ必要な依存は、`devDependencies`プロパティで同じように定義します。  
 
