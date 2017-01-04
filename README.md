@@ -1,1 +1,1 @@
-[Getting Started](https://docs.npmjs.com/getting-started/)
+[Getting Started](https://docs.npmjs.com/getting-started/what-is-npm)の訳
